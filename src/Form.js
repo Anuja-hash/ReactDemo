@@ -57,7 +57,7 @@ function Form()
       <label>AGE<input type="text"  onChange={(e)=>{addage(e.target.value)}}/><br></br></label>
       
       <label>Hobbies<br></br></label>
-      <input type="checkbox" id="hobby_1" name="hobby_1" value={hobbies}  onChange={controlHb}/><label>Reading books<br></br></label>
+      <input type="checkbox" id="hobby_1" name="hobby_1" value={hobbies}  onChange={controlHb}/><label>Reading novels<br></br></label>
       <input type="checkbox" id="hobby_1" name="hobby_1"  value={hobbies1} onChange={controlHb1} /><label>Lisening Music<br></br></label>
       {/* <input type="checkbox" id="hobby_1" name="hobby_1"checked={hobbies}  value="Watching_Tv"  onChange={(e)=>{addhobbies(e.target.value)}}/><label>Watching Tv<br></br></label> */}
      
