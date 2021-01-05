@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
+import Fill_Info from './Fill_Info'
 
-import Child  from './Child'
+//import Child  from './Child'
+import Info from './Info'
 function App(){
   let [name,addname]=useState("")
   let [email,addemail]=useState("")
@@ -26,12 +28,14 @@ function App(){
     return(
       
       <div>
-        <h1>Enter Details</h1>
+        {/* /*<h1>Enter Details</h1>
         <input type="text" placeholder="enter name"  onChange={(e)=>{addname(e.target.value)}}/>
      <input type="text" placeholder="email"  onChange={(e)=>{addemail(e.target.value)}}/>
      <input type="text" placeholder="mobile"  onChange={(e)=>{setmobile(e.target.value)}} />
       <button onClick={onSubmit} type="button" >Save</button>
-        <Child users={users}/>
+        <Child users={users}/> */}
+        <Fill_Info/>
+        <Info />
       </div>
   
     );
